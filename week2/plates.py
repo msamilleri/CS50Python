@@ -11,7 +11,6 @@ def is_valid(s):
         if s[4:6].isnumeric():
             if s[5:] != 0:
                 return True
-
     else:
         return False
 main()
