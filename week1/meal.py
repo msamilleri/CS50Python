@@ -1,4 +1,9 @@
-
+##########################################
+#                                        #
+#       author:@msamilleri               #
+#       you can use in your project      #
+#                                        #
+##########################################
 def main():
     time_req = input('What time is it ?')
     time = convert(time_req)

@@ -1,5 +1,10 @@
+##########################################
+#                                        #
+#       author:@msamilleri               #
+#       you can use in your project      #
+#                                        #
+##########################################
 file_text = input('File name: ')
-
 file_text = file_text.lower().strip().split('.')
 print(file_text)
 match  file_text[1]:

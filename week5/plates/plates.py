@@ -1,24 +1,35 @@
-
-
+##########################################
+#                                        #
+#       author:@msamilleri               #
+#       you can use in your project      #
+#                                        #
+##########################################
 
 def main():
-    plate_input = input('')
-    is_plate = is_valid(plate_input)
-    if is_plate == 'True':
-        print('Valid')
+    plate = input("Plate:")
+    if is_valid(plate):
+        print("Valid")
     else:
-        print('Invalid')
+        print("Invalid")
 
 
 def is_valid(s):
-    if  len(s)<=2 or len(s) <= 6 :
-        if s[4:6].isnumeric():
-            if s[5:] != 0:
-                return 'True'
-
+    if len(s) == 1:
+        return  False
+    if (len(s)>=2) or len(s) <= 6 :
+        for num in range(len(s)):
+            if not s[0].isnumeric() and not s[1].isnumeric():
+                if s[-1].isnumeric():
+                    if s[num].isnumeric():
+                        if s[num] == 0:
+                            return False
+                        else:
+                            return False
     else:
-        return 'False'
+        return False
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
+
+

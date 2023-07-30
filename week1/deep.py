@@ -1,3 +1,9 @@
+##########################################
+#                                        #
+#       author:@msamilleri               #
+#       you can use in your project      #
+#                                        #
+##########################################
 def text():
     test_text=input('What is the Answer to the Great Question of Life, the Universe, and Everything ?')
     if test_text == '42':

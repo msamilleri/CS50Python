@@ -1,5 +1,10 @@
+##########################################
+#                                        #
+#       author:@msamilleri               #
+#       you can use in your project      #
+#                                        #
+##########################################
 price = 50
-
 while price>0:
     amount_due = int(input('Amount Due : '))
     if amount_due == 25 or amount_due == 10 or amount_due == 5 :

@@ -1,4 +1,9 @@
-
+##########################################
+#                                        #
+#       author:@msamilleri               #
+#       you can use in your project      #
+#                                        #
+##########################################
 hello_text = input('Greeting: ')
 if hello_text.startswith('hello') or hello_text.startswith('Hello'):
     print('$0')

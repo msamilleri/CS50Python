@@ -1,6 +1,9 @@
-
-
-
+##########################################
+#                                        #
+#       author:@msamilleri               #
+#       you can use in your project      #
+#                                        #
+##########################################
 test_text=input()
 if test_text[0]=='H':
     print(test_text.replace(':)', '\U0001F642'))
